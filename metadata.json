@@ -1,0 +1,6 @@
+{
+  "name": "UI Locator Extractor",
+  "description": "An application that parses pasted HTML content to extract various CSS and XPath locators for UI elements. Useful for web scraping and test automation script development by providing multiple ways to identify elements on a page.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

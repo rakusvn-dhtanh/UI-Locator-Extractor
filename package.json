@@ -1,0 +1,26 @@
+
+{
+  "name": "ui-locator-extractor",
+  "version": "1.0.0",
+  "description": "An application that parses pasted HTML content to extract various CSS and XPath locators for UI elements. Useful for web scraping and test automation script development by providing multiple ways to identify elements on a page.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=index.js --platform=browser --format=esm --jsx=automatic --sourcemap --loader:.ts=tsx",
+    "start": "live-server .",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "echo \"Run 'npm run build' to build the project, then 'npm start' to run it.\""
+  },
+  "dependencies": {
+    "lucide-react": "^0.522.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.23.0",
+    "live-server": "^1.2.2",
+    "typescript": "^5.5.3"
+  }
+}
